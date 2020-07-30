@@ -1,0 +1,12 @@
+{
+  "name": "prueba-tecnica",
+  "displayName": "prueba-tecnica",
+  "expo": {
+    "name": "prueba-tecnica",
+    "slug": "prueba-tecnica",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
