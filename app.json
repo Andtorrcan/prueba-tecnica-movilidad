@@ -1,9 +1,9 @@
 {
-  "name": "prueba-tecnica",
-  "displayName": "prueba-tecnica",
+  "name": "my-app",
+  "displayName": "my-app",
   "expo": {
-    "name": "prueba-tecnica",
-    "slug": "prueba-tecnica",
+    "name": "my-app",
+    "slug": "my-app",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
