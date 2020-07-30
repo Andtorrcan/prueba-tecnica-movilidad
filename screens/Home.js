@@ -37,6 +37,13 @@ export default class Home extends Component {
             });
     }
 
+    /**
+     * Guardar info e ir a pantalla dos
+     */
+    onPressLearnMore(){
+        console.log('Ir a pantalla');
+        this.props.navigation.navigate('LastRecord')
+    }
 
     //Rederiza vista
     render() {
