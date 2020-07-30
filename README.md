@@ -9,3 +9,5 @@ expo install react-native-reanimated react-native-gesture-handler react-native-s
 
 npm install native-base --save
 
+
+Para ejecutar: expo start
