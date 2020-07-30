@@ -20,7 +20,7 @@ export default class LastRecord extends Component {
             headers: {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ec9ca927-6d9f-3fba-beab-a17c456f52ec'  //Se agrega el token a las cabeceras
+                'Authorization': 'Bearer 99441493-3b2d-33d5-89c7-9d32074fb048'  //Se agrega el token a las cabeceras
             }
         }).then((response) => response.json())
             .then((responseJson) => {
@@ -63,7 +63,7 @@ export default class LastRecord extends Component {
                         />
                         <Text style={styles.title}>Gracias! </Text>
         
-                        <Text style={styles.text}>Andres Torres identificado con CC y número de documento 1113669665, realizó su aporte de movilidad segura y reportó que se encuentra en alguna de las actividades
+                        <Text style={styles.text}>Juan Peña identificado con CC y número de documento 3242526, realizó su aporte de movilidad segura y reportó que se encuentra en alguna de las actividades
                         exceptuadas para circular en Bogotá.</Text>
         
                         <Text style={styles.text}>Rázon por la que te movilizas:</Text>
