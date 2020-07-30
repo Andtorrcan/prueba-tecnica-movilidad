@@ -20,7 +20,7 @@ export default class LastRecord extends Component {
             headers: {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ec9ca927-6d9f-3fba-beab-a17c456f52ec'
+                'Authorization': 'Bearer ec9ca927-6d9f-3fba-beab-a17c456f52ec'  //Se agrega el token a las cabeceras
             }
         }).then((response) => response.json())
             .then((responseJson) => {
