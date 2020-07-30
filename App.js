@@ -3,26 +3,24 @@ import React, { Component } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 //--Paginas
-import Login from './screens/Login';
 import Home from './screens/Home';
-
+import LastRecord from './screens/LastRecord';
 
 const Stack = createStackNavigator();
 
 function NavStack() {
     return (
         <Stack.Navigator>
-                 <Stack.Screen
-                name="Login"
-                component={Login}
-                options={{ title: 'Prueba técnica' }}
-            />
             <Stack.Screen
                 name="Home"
                 component={Home}
-                options={{ title: 'Prueba técnica' }}
+                options={{ title: 'Reporte movilidad' }}
             />
-          
+          <Stack.Screen
+                name="LastRecord"
+                component={LastRecord}
+                options={{ title: 'Reporte movilidad' }}
+            />
         </Stack.Navigator>
     );
 }
