@@ -1,4 +1,4 @@
-package com.pruebatecnica;
+package com.myapp;
 
 import android.os.Bundle;
 

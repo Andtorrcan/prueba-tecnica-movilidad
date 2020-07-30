@@ -1,4 +1,4 @@
-package com.pruebatecnica.generated;
+package com.myapp.generated;
 
 import java.util.Arrays;
 import java.util.List;
