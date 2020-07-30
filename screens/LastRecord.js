@@ -73,7 +73,26 @@ export default class LastRecord extends Component {
 
                 <Text style={styles.textNote}>*El usuario declara que la información registrada en el formulario es verídica y por lo tanto esta dentro de las actividades.</Text>
             </View>
-           
+            //Código cuando llega data del servicio, en este caso siempre me respondia vacio así que lo dejo comentareado en caso que me pidan ponerlo
+            /**
+             * <View style={styles.container}>
+                <Image
+                    style={styles.logo}
+                    source={{
+                        uri: 'https://image.flaticon.com/icons/svg/2165/2165782.svg',
+                    }}
+                />
+                <Text style={styles.title}>Gracias! </Text>
+
+                <Text style={styles.text}>{last} identificado con {last} y número de documento {last}, realizó su aporte de movilidad segura y reportó que se encuentra en alguna de las actividades
+                exceptuadas para circular en Bogotá.</Text>
+
+                <Text style={styles.text}>Rázon por la que te movilizas:</Text>
+                <Text style={styles.text_important}>{last}</Text>
+
+                <Text style={styles.textNote}>*El usuario declara que la información registrada en el formulario es verídica y por lo tanto esta dentro de las actividades.</Text>
+            </View>
+             */
             
         );
     }
