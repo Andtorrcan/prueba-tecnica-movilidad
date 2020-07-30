@@ -6,8 +6,6 @@ export default class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            username: '',
-            password: '',
             isLoading: true,
             types: ''
         };
