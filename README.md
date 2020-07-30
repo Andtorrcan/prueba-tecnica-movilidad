@@ -13,3 +13,6 @@ npm install native-base --save
 Para ejecutar: expo start
 
 Para la pantalla 2 se dejan datos quemados ya que el servicio no los devuelve (Nombre, cedula, razón de salida).
+
+
+En la carpeta evidencia hay un video con la funcionalidad de la App.
